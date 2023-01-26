@@ -74,6 +74,7 @@
 		85C176032981F58100211D9D /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C175FF2981F58100211D9D /* GameObject.swift */; };
 		85C176052981FCF400211D9D /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C176042981FCF400211D9D /* Island.swift */; };
 		85C176072981FDEE00211D9D /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C176062981FDEE00211D9D /* Layer.swift */; };
+		85C176092982014200211D9D /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C176082982014200211D9D /* Cloud.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +146,7 @@
 		85C175FF2981F58100211D9D /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 		85C176042981FCF400211D9D /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		85C176062981FDEE00211D9D /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		85C176082982014200211D9D /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +292,7 @@
 				85C175FB2981F58100211D9D /* Ocean.swift */,
 				85C175FC2981F58100211D9D /* Player.swift */,
 				85C176042981FCF400211D9D /* Island.swift */,
+				85C176082982014200211D9D /* Cloud.swift */,
 			);
 			path = GameObjects;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				85C176052981FCF400211D9D /* Island.swift in Sources */,
 				85C176032981F58100211D9D /* GameObject.swift in Sources */,
 				85C1757B2981F53B00211D9D /* GameViewController.swift in Sources */,
+				85C176092982014200211D9D /* Cloud.swift in Sources */,
 				85C176012981F58100211D9D /* Player.swift in Sources */,
 				85C176072981FDEE00211D9D /* Layer.swift in Sources */,
 				85C175732981F53B00211D9D /* AppDelegate.swift in Sources */,
