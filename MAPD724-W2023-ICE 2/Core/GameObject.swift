@@ -4,7 +4,7 @@ import SpriteKit
 class GameObject : SKSpriteNode, GameProtocol
 {
     //Public Instance Members
-    var horizonatalSpeed: CGFloat?
+    var horizontalSpeed: CGFloat?
     var verticalSpeed: CGFloat?
     var width: CGFloat?
     var height: CGFloat?

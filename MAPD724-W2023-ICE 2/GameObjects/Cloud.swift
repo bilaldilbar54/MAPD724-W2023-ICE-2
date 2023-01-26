@@ -6,7 +6,7 @@ class Cloud : GameObject
     //Initializer // constructor
     init ()
     {
-        super.init (imageString: "island", initialScale: 1.0)
+        super.init (imageString: "cloud", initialScale: 1.0)
         Start()
     }
     
@@ -44,7 +44,7 @@ class Cloud : GameObject
         verticalSpeed = CGFloat((randomSource?.nextUniform())! * 5.0) + 5.0
         
         //Randomize the horizontal speed: -2 to 2
-        horizonatalSpeed = CGFloat((randomSource?.nextUniform())! * 4.0) - 2.0
+        horizontalSpeed = CGFloat((randomSource?.nextUniform())! * 4.0) - 2.0
         
         //Get a pseudo random number for the X position: -262 to 262
         let randomX: Int = (randomSource?.nextInt(upperBound: 524))! - 262
@@ -59,7 +59,7 @@ class Cloud : GameObject
     //Public Method
     func Move()
     {
-        position.x -= horizonatalSpeed!
+        position.x -= horizontalSpeed!
         position.y -= verticalSpeed!
     }
 }

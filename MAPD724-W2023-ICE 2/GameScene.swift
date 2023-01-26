@@ -12,7 +12,7 @@ class GameScene: SKScene
     var ocean2: Ocean?
     var player: Player?
     var island: Island?
-    var cloud: Cloud?
+    var clouds: [Cloud] = []
     
     override func sceneDidLoad()
     {
@@ -41,9 +41,13 @@ class GameScene: SKScene
         island = Island()
         addChild(island!)
         
-        //Add the cloud to the scene
-        cloud = Cloud()
-        addChild(cloud!)
+        //Add the 3 clouds to the scene
+        for _ in 0...2
+        {
+            let cloud = Cloud()
+            clouds.append(cloud)
+            addChild(cloud)
+        }
     }
     
     func touchDown(atPoint pos : CGPoint)
@@ -88,6 +92,11 @@ class GameScene: SKScene
         ocean2?.Update()
         player?.Update()
         island?.Update()
-        cloud?.Update()
+        
+        //Update each cloud in the clouds array
+        for cloud in clouds
+        {
+            cloud.Update()
+        }
     }
 }
